@@ -1,5 +1,5 @@
 <script>
-import ImgFirstCard from "./ImgFirstCard.vue";
+import ImgFirstCard from "../card-components/ImgFirstCard.vue";
 import services from "../../assets/json/services.json";
 
 export default {
@@ -23,7 +23,7 @@ export default {
       <div class="flex-center">
         <ImgFirstCard
           v-for="service in services"
-          :image="service.img"
+          :image="service.image"
           :name="service.name"
           :text="service.text"
         />

@@ -20,7 +20,7 @@ export default {
   },
   data() {
     return {
-      heroImgs,
+      heroImg: heroImgs[0],
     };
   },
 };
@@ -28,7 +28,7 @@ export default {
 
 <template>
   <main>
-    <PageHero :bg_img="heroImgs[0].hero_bg_image" :hero_img="heroImgs[0].hero_image" />
+    <PageHero :bg_img="heroImg.hero_bg_image" :hero_img="heroImg.hero_image" />
     <PageAbout />
     <PageServices />
     <PageShop />

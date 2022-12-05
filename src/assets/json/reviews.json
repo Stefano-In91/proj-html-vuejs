@@ -1,0 +1,17 @@
+[
+  {
+    "name": "John Snow",
+    "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam iure excepturi iusto aliquid, ratione consequatur fuga hic minima numquam, vitae, laboriosam maiores ea asperiores dolorum",
+    "thumbnail": "src/assets/img/avadabarbers-trimcut-gallery3.jpg"
+  },
+  {
+    "name": "Pistol Pete",
+    "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam iure excepturi iusto aliquid, ratione consequatur fuga hic minima numquam, vitae, laboriosam maiores ea asperiores dolorum",
+    "thumbnail": "src/assets/img/avadabarbers-trimcut-gallery6.jpg"
+  },
+  {
+    "name": "Dan Callaghan",
+    "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam iure excepturi iusto aliquid, ratione consequatur fuga hic minima numquam, vitae, laboriosam maiores ea asperiores dolorum",
+    "thumbnail": "src/assets/img/avadabarbers-trimcut-gallery7.jpg"
+  }
+]
