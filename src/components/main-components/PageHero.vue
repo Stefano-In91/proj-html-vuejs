@@ -26,7 +26,6 @@ export default {
 #hero {
   background-position: center;
   background-size: cover;
-  padding: 5rem 0;
   h1 {
     color: white;
     font-size: 4rem;
