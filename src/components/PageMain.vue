@@ -6,6 +6,8 @@ import PageShop from "./main-components/PageShop.vue";
 import PageReviews from "./main-components/PageReviews.vue";
 import PageBlog from "./main-components/PageBlog.vue";
 
+import heroImgs from "../assets/json/hero.json";
+
 export default {
   name: "PageMain",
   components: {
@@ -16,12 +18,17 @@ export default {
     PageReviews,
     PageBlog,
   },
+  data() {
+    return {
+      heroImgs,
+    };
+  },
 };
 </script>
 
 <template>
   <main>
-    <PageHero />
+    <PageHero :bg_img="heroImgs[0].hero_bg_image" :hero_img="heroImgs[0].hero_image" />
     <PageAbout />
     <PageServices />
     <PageShop />
