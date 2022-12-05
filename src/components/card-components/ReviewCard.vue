@@ -25,7 +25,7 @@ export default {
   img {
     border-radius: 100%;
     height: 8rem;
-    margin: 1rem 0 0.5rem;
+    padding: 1rem 0 0.5rem;
   }
   small {
     display: block;

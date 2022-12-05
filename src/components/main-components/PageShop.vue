@@ -1,5 +1,7 @@
 <script>
 import ShopCard from "../card-components/ShopCard.vue";
+import FeaturedCard from "../card-components/FeaturedCard.vue";
+
 import products from "../../assets/json/products.json";
 import featuredProduct from "../../assets/json/featured-product.json";
 
@@ -7,6 +9,7 @@ export default {
   name: "PageShop",
   components: {
     ShopCard,
+    FeaturedCard,
   },
   data() {
     return {
@@ -33,19 +36,12 @@ export default {
       </div>
       <button>Shop our product range</button>
     </div>
-    <div class="featured-product flex">
-      <div class="featured-image" :style="`background-image: url(${featured.featured_bg})`">
-        <img :src="featured.featured_img" :alt="featured.featured_item_name" />
-      </div>
-      <div class="featured-description flex-center">
-        <div>
-          <h4>This month's featured product</h4>
-          <h2>{{ featured.featured_item_name }}</h2>
-          <p>{{ featured.featured_item_description }}</p>
-          <button>Buy Now</button>
-        </div>
-      </div>
-    </div>
+    <FeaturedCard
+      :background="featured.featured_bg"
+      :image="featured.featured_img"
+      :name="featured.featured_item_name"
+      :description="featured.featured_item_description"
+    />
   </section>
 </template>
 
@@ -57,30 +53,6 @@ export default {
   padding-bottom: 10rem;
   button {
     margin-top: 2rem;
-  }
-  .featured-product {
-    position: absolute;
-    left: 50%;
-    bottom: -50%;
-    transform: translate(-50%, -25%);
-    border-top: 4px solid var(--gold-color);
-    max-height: calc(var(--container) / 10 * 4);
-    width: var(--container);
-    .featured-image {
-      max-width: 40%;
-      background-size: cover;
-      img {
-        display: block;
-        height: 100%;
-      }
-    }
-    .featured-description {
-      position: relative;
-      left: -1px;
-      max-width: 60%;
-      padding: 3rem;
-      background-color: var(--darkbg-color);
-    }
   }
 }
 </style>
