@@ -6,3 +6,16 @@
   margin-left: auto;
   margin-right: auto;
 }
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-between-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.center {
+  text-align: center;
+}

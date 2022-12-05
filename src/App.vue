@@ -13,9 +13,11 @@ export default {
 </script>
 
 <template>
-  <PageHeader />
-  <PageMain />
-  <PageFooter />
+  <div class="container">
+    <PageHeader />
+    <PageMain />
+    <PageFooter />
+  </div>
 </template>
 
 <style lang="scss">
