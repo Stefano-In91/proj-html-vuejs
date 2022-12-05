@@ -1,11 +1,43 @@
 <script>
+import ImgFirstCard from "./ImgFirstCard.vue";
+import services from "../../assets/json/services.json";
+
 export default {
   name: "PageServices",
+  components: {
+    ImgFirstCard,
+  },
+  data() {
+    return {
+      services,
+    };
+  },
 };
 </script>
 
 <template>
-  <h1>PageServices</h1>
+  <section id="services">
+    <div class="container text-center">
+      <h4>Mens Grooming</h4>
+      <h2>Services</h2>
+      <div class="flex-center">
+        <ImgFirstCard
+          v-for="service in services"
+          :image="service.img"
+          :name="service.name"
+          :text="service.text"
+        />
+      </div>
+      <button>Read about our services</button>
+    </div>
+  </section>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+#services {
+  padding-bottom: 10rem;
+  .flex-center {
+    margin: 2rem 0;
+  }
+}
+</style>

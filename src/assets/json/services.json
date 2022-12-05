@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Trim & Cut",
+    "img": "src/assets/img/avadabarbers-trimcut-icon-before.png",
+    "text": "Avada Barbers are experts in the lickety split trim and hair cut. Quick but careful and ridiculously good loking."
+  },
+  {
+    "name": "Wash & Dry",
+    "img": "src/assets/img/avadabarbers-washndry-icon.png",
+    "text": "Take a seat in our fine leather chairs, lean back and let us lather you a fresg head in a luxurious fashion."
+  },
+  {
+    "name": "Beard Tidy",
+    "img": "src/assets/img/avadabarbers-beardtrim-icon.png",
+    "text": "Tame the angles and untidy facial hairs like a gentleman with our Beard Tidy services from Avada Barbers."
+  }
+]

@@ -31,7 +31,6 @@ export default {
     font-size: 4rem;
   }
   p {
-    color: var(--darkgray-color);
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
   }
