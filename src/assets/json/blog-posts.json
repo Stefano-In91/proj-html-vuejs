@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Avada Barbers Now Open",
+    "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam iure excepturi iusto aliquid, ratione consequatur fuga hic minima numquam, vitae, laboriosam maiores ea asperiores dolorum",
+    "image": "src/assets/img/avadabarbers-second-blog-320x202.jpg"
+  },
+  {
+    "name": "Choosing The Right Barber",
+    "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam iure excepturi iusto aliquid, ratione consequatur fuga hic minima numquam, vitae, laboriosam maiores ea asperiores dolorum",
+    "image": "src/assets/img/avadabarbers-choosing-blog-320x202.jpg"
+  },
+  {
+    "name": "Quick Service Guide",
+    "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam iure excepturi iusto aliquid, ratione consequatur fuga hic minima numquam, vitae, laboriosam maiores ea asperiores dolorum",
+    "image": "src/assets/img/avadabarbers-ourservice-blog-320x202.jpg"
+  }
+]

@@ -24,6 +24,7 @@ export default {
         <ImgFirstCard
           v-for="service in services"
           :image="service.image"
+          :img_height="100"
           :name="service.name"
           :text="service.text"
         />

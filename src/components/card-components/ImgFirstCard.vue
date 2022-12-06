@@ -3,6 +3,7 @@ export default {
   name: "ImgFirstCard",
   props: {
     image: String,
+    img_height: Number,
     name: String,
     text: String,
   },
@@ -11,7 +12,7 @@ export default {
 
 <template>
   <div class="card">
-    <img :src="image" :alt="name" />
+    <img :src="image" :alt="name" :style="`max-height: ${img_height}px`" />
     <h3>{{ name }}</h3>
     <p>
       {{ text }}
@@ -23,9 +24,6 @@ export default {
 .card {
   padding: 1.5rem;
   max-width: calc(100% / 3 - 2rem);
-  img {
-    max-height: 6.25rem;
-  }
   h3 {
     margin: 1.5rem 0;
   }
