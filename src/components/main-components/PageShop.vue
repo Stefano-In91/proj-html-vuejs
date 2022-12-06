@@ -1,6 +1,7 @@
 <script>
 import ShopCard from "../card-components/ShopCard.vue";
 import FeaturedCard from "../card-components/FeaturedCard.vue";
+import SectionSeparator from "../section-separator/SectionSeparator.vue";
 
 import products from "../../assets/json/products.json";
 import featuredProduct from "../../assets/json/featured-product.json";
@@ -10,6 +11,7 @@ export default {
   components: {
     ShopCard,
     FeaturedCard,
+    SectionSeparator,
   },
   data() {
     return {
@@ -22,7 +24,11 @@ export default {
 </script>
 
 <template>
-  <section id="page-shop" :style="`background-image: url(${bg_img})`">
+  <section id="shop" :style="`background-image: url(${bg_img})`">
+    <SectionSeparator
+      :filter="`filter: invert(4%) sepia(2%) saturate(2258%) hue-rotate(169deg) brightness(101%) contrast(93%);`"
+      :position="`top`"
+    />
     <div class="text-center">
       <h4>We have you covered</h4>
       <h2>Avada Grooming Products</h2>
@@ -46,7 +52,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-#page-shop {
+#shop {
   position: relative;
   background-size: cover;
   background-position: center;
