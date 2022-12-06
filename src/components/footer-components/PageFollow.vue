@@ -20,14 +20,22 @@ export default {
         <img :src="shop_img" alt="shop" />
         <button>Shop our range Now</button>
       </div>
-      <div>
+      <div class="column-between">
         <img class="logo" :src="logo_img" alt="logo" />
         <ul>
           <li v-for="detail in avada_details">
             <p>{{ detail }}</p>
           </li>
         </ul>
-        <h4>Follow Us</h4>
+        <div>
+          <h4>Follow Us</h4>
+          <div class="socials">
+            <a><i class="fa-brands fa-facebook-f"></i></a>
+            <a><i class="fa-brands fa-twitter"></i></a>
+            <a><i class="fa-brands fa-instagram"></i></a>
+            <a><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
       </div>
       <div>
         <img :src="appointment_img" alt="appointment" />
@@ -39,6 +47,8 @@ export default {
 
 <style lang="scss" scoped>
 #follow-us {
+  position: relative;
+  bottom: -1px;
   background-color: var(--darkbg-color);
   padding: 2rem 0 3rem;
   img:not(.logo) {
@@ -46,11 +56,21 @@ export default {
     width: 300px;
     object-fit: cover;
   }
-  .logo {
-    margin-bottom: 3rem;
-  }
-  h4 {
-    margin: 2rem 0;
+  .column-between {
+    height: 450px;
+    .logo {
+      width: 200px;
+    }
+    h4 {
+      margin-bottom: 1rem;
+    }
+    .socials a {
+      color: var(--gray-color);
+      font-size: 1.25rem;
+      &:not(:last-of-type) {
+        margin-right: 0.5rem;
+      }
+    }
   }
 }
 </style>
