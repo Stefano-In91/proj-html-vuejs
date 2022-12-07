@@ -5,6 +5,7 @@ import PageServices from "./main-components/PageServices.vue";
 import PageShop from "./main-components/PageShop.vue";
 import PageReviews from "./main-components/PageReviews.vue";
 import PageBlog from "./main-components/PageBlog.vue";
+import DiscountCards from "./card-components/DiscountCards.vue";
 
 import heroImgs from "../assets/json/hero.json";
 
@@ -17,6 +18,7 @@ export default {
     PageShop,
     PageReviews,
     PageBlog,
+    DiscountCards,
   },
   data() {
     return {
@@ -34,6 +36,7 @@ export default {
     <PageShop />
     <PageReviews />
     <PageBlog />
+    <DiscountCards />
   </main>
 </template>
 

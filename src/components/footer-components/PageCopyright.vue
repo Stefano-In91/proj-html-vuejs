@@ -15,6 +15,7 @@ export default {
 <template>
   <section id="copyright" class="text-center">
     <p>{{ copyright }} | {{ theme }} | {{ rights }} | {{ powered_by }}</p>
+    <a href="#hero"><i class="fa-solid fa-circle-chevron-up"></i></a>
   </section>
 </template>
 
@@ -24,6 +25,16 @@ export default {
   background-color: var(--copyright-color);
   p {
     color: rgba(169, 169, 169, 0.185);
+  }
+  a {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    padding: 0.5rem 1rem;
+    color: var(--gray-color);
+    background-color: var(--darkbg-color);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
   }
 }
 </style>
