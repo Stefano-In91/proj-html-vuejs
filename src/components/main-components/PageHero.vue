@@ -1,6 +1,11 @@
 <script>
+import DiscountCards from "../card-components/DiscountCards.vue";
+
 export default {
   name: "PageHero",
+  components: {
+    DiscountCards,
+  },
   props: {
     bg_img: String,
     hero_img: String,
@@ -19,6 +24,7 @@ export default {
       </div>
       <img :src="hero_img" alt="hero" />
     </div>
+    <DiscountCards />
   </section>
 </template>
 

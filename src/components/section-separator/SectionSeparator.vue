@@ -22,6 +22,7 @@ export default {
 <style lang="scss" scoped>
 img {
   position: absolute;
+  z-index: 2;
   width: 100%;
   height: 100px;
   background-color: transparent;

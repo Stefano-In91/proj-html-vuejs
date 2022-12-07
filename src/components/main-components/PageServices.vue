@@ -42,7 +42,6 @@ export default {
 
 <style lang="scss" scoped>
 #services {
-  position: relative;
   padding-bottom: 10rem;
   .flex-center {
     margin: 2rem 0;

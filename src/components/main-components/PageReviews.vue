@@ -41,7 +41,6 @@ export default {
 
 <style lang="scss" scoped>
 #reviews {
-  position: relative;
   padding-top: calc(var(--container) * 0.4);
 }
 </style>

@@ -53,7 +53,6 @@ export default {
 
 <style lang="scss" scoped>
 #shop {
-  position: relative;
   background-size: cover;
   background-position: center;
   padding-bottom: 10rem;
