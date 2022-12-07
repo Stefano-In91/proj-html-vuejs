@@ -15,7 +15,7 @@ export default {
 <template>
   <section id="copyright" class="text-center">
     <p>{{ copyright }} | {{ theme }} | {{ rights }} | {{ powered_by }}</p>
-    <a href="#hero"><i class="fa-solid fa-circle-chevron-up"></i></a>
+    <a href="#hero" class="go-top"><i class="fa-solid fa-circle-chevron-up"></i></a>
   </section>
 </template>
 
@@ -26,7 +26,7 @@ export default {
   p {
     color: rgba(169, 169, 169, 0.185);
   }
-  a {
+  a.go-top {
     position: absolute;
     bottom: 0;
     right: 10%;

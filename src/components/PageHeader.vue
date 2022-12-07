@@ -21,6 +21,7 @@ export default {
 <style lang="scss" scoped>
 header {
   position: absolute;
+  z-index: 99;
   padding: 1rem 0;
   background-color: inherit;
   .icons {
