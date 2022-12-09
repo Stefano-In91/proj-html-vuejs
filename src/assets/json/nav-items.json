@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Home",
+    "link": "#hero"
+  },
+  {
+    "name": "About Us",
+    "link": "#about"
+  },
+  {
+    "name": "Services",
+    "link": "#services"
+  },
+  {
+    "name": "Shop",
+    "link": "#shop"
+  },
+  {
+    "name": "What People Say",
+    "link": "#reviews"
+  },
+  {
+    "name": "Blog",
+    "link": "#blog"
+  },
+  {
+    "name": "Contact Us",
+    "link": "#follow-us"
+  }
+]
